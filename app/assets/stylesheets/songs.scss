@@ -1,0 +1,26 @@
+// Place all the styles related to the songs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a.Listen:hover {
+	background-color: black;
+}
+
+a.Listen {
+	color: #3366cc;
+
+	&visited{
+	color: #3366cc;
+	}
+}
+
+.SED.margin {
+	margin-left: 50px;
+}
+
+.SED {
+	color: grey !important;
+
+	&:visited{
+	color: grey !important;
+	}
+}
